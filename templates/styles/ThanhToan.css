@@ -1,0 +1,64 @@
+.main {
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 350px auto;
+}
+
+.student-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+}
+
+.name-id {
+    width: 400px;
+    text-align: center;
+    font-size: 20px; 
+}
+
+.name-id p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px; 
+    margin: 0;
+    padding: 0;
+}
+
+.payment-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 75px; /* Thêm khoảng cách 30px giữa payment-images và student-information */
+    margin-left: 50px;
+}
+
+.payment-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.payment-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #333;
+}
+
+.payment-images img {
+    width: 80px;
+    height: auto;
+    margin: 10px 0;
+}

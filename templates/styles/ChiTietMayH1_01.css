@@ -1,0 +1,57 @@
+.printer-infomation
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.printer-img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.printer-img img
+{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.printer-img p
+{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.printer-detail
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+}
+.printer-detail p
+{
+    margin: 5px;
+}
+.printer-detail .appointment-creation
+{
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    border-radius: 18px;
+    border: 2px solid #000;
+    background: rgba(60, 141, 188, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 130px;
+    height: 40px; 
+    text-align: center;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+.printer-detail .appointment-creation:hover
+{
+    background: rgba(60, 141, 188, 1);
+    color: white;
+    cursor: pointer;
+}

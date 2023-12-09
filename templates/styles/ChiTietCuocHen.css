@@ -1,0 +1,297 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+
+}
+
+a {
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    height: 110px;
+}
+
+.logo {
+    width: 260px;
+    height: 110px;
+    text-align: center;
+    background-color: #def1ff;
+
+} 
+.logo img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.header_wrap {
+    padding: 20px;
+    background-color: #3c8dbc;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu {
+    font-size: 2.6rem;
+    color: #fff;
+
+}
+
+.header_name {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header_list a {
+    display: inline-block;
+}
+
+.header_list i {
+    margin-left: 30px;
+    font-size: 2.6rem;
+    color: #fff;
+}
+
+/* Main */
+
+main {
+    height: 500px;
+    display: flex;
+}
+
+.nav {
+    height: 100%;
+    width: 260px;
+    background-color: #767676;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav_list {
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav_list .nav_item:hover a {
+    color: #000;
+}
+
+.nav_list .nav_item {
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav_item a {
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav_list .nav_item i {
+    margin-right: 5px;
+}
+
+.nav_item a:hover {
+    background-color: #495057;
+}
+
+ul.nav_list {
+    width: 260px;
+}
+
+.content {
+    position: relative;
+}
+
+.icon_paper img{
+    height: 9rem;
+    left: 147px;
+    object-fit: contain;
+    position: absolute;
+    top: 120px;
+    vertical-align: top;
+    width: 10.8125rem; 
+}
+
+.icon_name{
+    color: #000000;
+    display: flex;
+    font-family: Roboto, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 2.4rem;
+    left: 137px;
+    top: 50px;
+    line-height: 1.1725;
+    position: absolute;
+    white-space: nowrap;
+    width: 17.9rem;
+}
+
+.infor {
+    color: #000000;
+    display: flex;
+    font-family: Roboto, 'Source Sans Pro';
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 27rem;
+    max-width: 800px;
+    left: 300px;
+    line-height: 1.1725;
+    position: relative;
+    top: 100px;
+    width: 19.7rem;
+    
+    margin-bottom: 125px;
+  }
+
+table {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    height: 86px;
+    position: absolute;
+    left: 150px;
+    z-index: 1; /* Ensure the table is above .infor */
+    padding-top: 50px;
+}
+
+table, td, th{
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.table.table-green {
+    background: #089F7F;
+    color: #fff;
+}
+
+.table.table-striped tbody tr:nth-child(odd){
+    background: #f5f5f5;
+    color:#000;
+} 
+
+
+button {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.overplay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 24px;
+    background-color: #fff;
+    position: relative;
+}
+
+.modal-box i{
+    position: absolute;
+    font-size: 15px;
+    right: 20px;
+    top: 20px;
+    color: #8c8c8c;
+}
+
+.modal-box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+
+}
+
+.modal-box .buttons {
+    margin-top: 25px;
+}
+
+.modal-box button {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0 10px;
+} 
+
+.close-btn {
+    background: #3c8dbc;
+}
+
+.accept-btn {
+    background: #3c8dbc;
+}
+
+/* Footer */
+
+footer {
+    height: 110px;
+    display: flex;
+}
+
+.div {
+    width: 260px;
+    height: 110px;
+    background-color: #767676;
+}
+
+.footer_info {
+    text-align: center;
+    flex: 1;
+    background-color: #3c8dbc;
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.footer_info p {
+    margin: 0;
+    padding: 10px 0 0 0;
+}

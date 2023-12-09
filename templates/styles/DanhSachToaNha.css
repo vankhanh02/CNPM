@@ -1,0 +1,38 @@
+.content ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.content ul li
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.content ul li a,
+.content ul li a img
+{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.content ul li .building-name
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+

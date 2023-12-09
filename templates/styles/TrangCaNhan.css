@@ -1,0 +1,14 @@
+/* TrangCaNhan.css */
+.profile-img {
+    max-width: 150px; 
+}
+
+.content {
+    display: flex;
+    align-items: flex-start; /* Chuyển "user-personal-info" lên đầu trang */
+}
+
+.user-personal-info {
+    margin-left: 20px; 
+    font-size: 16px;
+}

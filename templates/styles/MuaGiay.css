@@ -1,0 +1,104 @@
+main 
+{
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+.content .student-information {
+    display: grid;
+    width: 400px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #ddd;
+    border: 2px solid #333; /* Add this line to set the border */
+}
+.content
+{
+    display: grid;
+    grid-template-columns: 350px auto;
+}
+.profile-img{
+    width: 250px;
+    height: 250px;
+    background-color: #3C8DBC;
+
+}
+.name-id {
+    width: 400px;
+    text-align: center;
+    font-size: 14px; 
+}
+
+.name-id p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px; 
+    margin: 0;
+    padding: 0;
+}
+.form-mua-giay
+{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+}
+.form-mua-giay form {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    max-width: 500px;
+
+    margin: 50px 0 50px; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #ddd;
+
+    position: relative;
+    left: 50px; 
+}
+.form-mua-giay form .form-element
+{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    font-size: 25px;
+}
+.form-mua-giay form .form-element label
+{
+    font-size: 25px;
+}
+.form-mua-giay form button
+{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: #3C8DBC;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.form-element .alert-input
+{
+    font-size: 10px;
+    width: 300px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 150px;
+    color: red;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
